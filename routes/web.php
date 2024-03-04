@@ -17,4 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/login', 'login');
+Route::view('/home', 'home');
+Route::view('/chat', 'chat');
+Route::view('/room-list', 'room-list');
+Route::view('/room-detail', 'room-detail');
+Route::view('/bill', 'bill');
+Route::view('/profil', 'profil');
+Route::view('/bill-detail', 'bill-detail');
